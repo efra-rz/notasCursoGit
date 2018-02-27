@@ -12,3 +12,6 @@ Una etiqueta ligera no es más que el checksum de un commit guardado en un archi
 ### Etiqueta anotada
 **git tag -a -v1.0 -m 'my version 1.0'**
 Se guardan en la base de datos de Git como objetos enteros. Tienen un checksum; contienen el nombre del etiquetador, correo electrónico fecha; y tienen un mensaje asociado.
+
+### git tag -l "v1.*
+Lista las etiquetas que coincidan con el patron especificado.
