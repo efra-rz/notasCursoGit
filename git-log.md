@@ -12,3 +12,6 @@ Muestra todo el historial de commits del proyecto.
 Esto es un ejemplo de como personalizar la salida del historial con el formato que indiquemos.
 
 `git log --pretty=format:"%h - %an, %ar : %s"`
+
+`git log --decorate --all --oneline --graph`
+Este comando nos muestra el historial en una sola linea ppor commit.
