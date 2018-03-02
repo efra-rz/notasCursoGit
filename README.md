@@ -51,4 +51,3 @@ Ejemplo:
 git help config
 git config --help
 ```
-Esta línea fue creada en la rama master.
